@@ -22,10 +22,10 @@
 int main(int argc, char *argv[])
 {
     AGLApplication app(argc, argv);
-    app.setApplicationName("HVAC");
-    app.setupApplicationRole("hvac");
+    app.setApplicationName("BREEZE");
+    app.setupApplicationRole("breeze");
     qmlRegisterType<Translator>("Translator", 1, 0, "Translator");
-    app.load(QUrl(QStringLiteral("qrc:/HVAC.qml")));
+    app.load(QUrl(QStringLiteral("qrc:/BREEZE.qml")));
     return app.exec();
 }
 

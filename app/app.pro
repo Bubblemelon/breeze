@@ -8,7 +8,7 @@ SOURCES = main.cpp \
     translator.cpp
 
 RESOURCES += \
-    hvac.qrc \
+    breeze.qrc \
     images/images.qrc
 
 include(app.pri)

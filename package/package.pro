@@ -14,6 +14,6 @@ QMAKE_EXTRA_TARGETS += copy_config
 PRE_TARGETDEPS += $$copy_config.target
 
 wgt.target = package
-wgt.commands = wgtpkg-pack -f -o hvac.wgt root
+wgt.commands = wgtpkg-pack -f -o breeze.wgt root
 
 QMAKE_EXTRA_TARGETS += wgt
