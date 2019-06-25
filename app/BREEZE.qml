@@ -128,7 +128,7 @@ ApplicationWindow {
 				}
 				ToggleButton {
 					onImage: './images/HMI_HVAC_Circulation_Active.svg'
-					offImage: './images/HMI_HVAC_Circulation_Inactive.svg'
+					offImage: './images/goldfish.svg'
 					onCheckedChanged: {
 						console.debug('Circulation', checked)
 					}

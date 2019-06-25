@@ -1,4 +1,4 @@
-TARGET = hvac
+TARGET = breeze
 QT = quick qml aglextras
 
 HEADERS += \
